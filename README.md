@@ -27,9 +27,15 @@ For licensing and usage details, see [DECLARATION_OF_RIGHTS.md](./DECLARATION_OF
 
    # List registered usernames
    swift run Claireity-SSIAM list
+=======
+2. Run the package:
+   ```bash
+   swift run Claireity-SSIAM
+codex/generate-development-plan-based-on-repo-description
    ```
 3. Execute the tests:
    ```bash
    swift test
    ```
-
+   
+   codex/generate-development-plan-based-on-repo-description
