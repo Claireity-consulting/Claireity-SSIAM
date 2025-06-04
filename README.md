@@ -4,3 +4,5 @@
 
 A white paper and proof of concept will be published soon, I'm a solo-dev with very little time on my hands... 
 Meanwhile, you can check out the very first wireframe & presentation of the application, giving more insight into the project!
+
+For licensing and usage details, see [DECLARATION_OF_RIGHTS.md](./DECLARATION_OF_RIGHTS.md).
