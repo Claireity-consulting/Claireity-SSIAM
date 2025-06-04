@@ -34,6 +34,10 @@ jobs:
         with:
           source: ./
           destination: ./_site
+      - name: Check generated site for broken links
+        run: |
+          gem install html-proofer
+          htmlproofer ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
