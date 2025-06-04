@@ -14,11 +14,28 @@ For licensing and usage details, see [DECLARATION_OF_RIGHTS.md](./DECLARATION_OF
    ```bash
    swift build
    ```
+2. Run the package with a command:
+   ```bash
+   # Display a welcome message
+   swift run Claireity-SSIAM greet
+
+   # Register a new user
+   swift run Claireity-SSIAM register <username> <password>
+
+   # Log in with an existing user
+   swift run Claireity-SSIAM login <username> <password>
+
+   # List registered usernames
+   swift run Claireity-SSIAM list
+=======
 2. Run the package:
    ```bash
    swift run Claireity-SSIAM
+codex/generate-development-plan-based-on-repo-description
    ```
 3. Execute the tests:
    ```bash
    swift test
    ```
+   
+   codex/generate-development-plan-based-on-repo-description
